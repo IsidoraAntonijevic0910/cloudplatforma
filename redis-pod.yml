@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
     - name: result
-      image:
+      image: redis:latest
       ports:
         - containerPort: 6372
   selector:
